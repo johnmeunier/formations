@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+  <script src="./script.js" type="module"></script>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Dashboard MEL</h1>
+  <div class="category category--dark">
+    <div class="container">
+      <h2>Indéminités</h2>
+      <div class="category">
+        <h3>par genre</h3>
+        <div class="graph">
+          <div class="graph__item graph__item--s" id="HFIndeminites"></div>
+          <div class="graph__item graph__item--l" id="HFCount"></div>
+        </div>
+      </div>
+      <div class="category">
+        <h3>par groupe</h3>
+        <div class="graph">
+          <div class="graph__item graph__item--s" id="groupeIndeminites"></div>
+          <div class="graph__item graph__item--l" id="groupeCount"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="container">
+      <h2>Fréquentation Euro 2016</h2>
+      <div class="category">
+        <h3>pour le stage Pierre Mauroy</h3>
+        <div class="graph">
+          <div class="graph__item graph__item--l" id="frequentationStade"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

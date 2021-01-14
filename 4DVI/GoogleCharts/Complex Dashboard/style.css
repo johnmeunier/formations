@@ -1,0 +1,39 @@
+h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+
+.graph {
+  display: flex;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.category {
+  width: 100%;
+  display: block;
+}
+
+.category--dark {
+  background-color: #033860;
+  color: #fff;
+}

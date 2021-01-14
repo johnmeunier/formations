@@ -1,0 +1,322 @@
+export default [{
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "67ed3d42d8e994ba5a70a0b2022b667d28bd094e",
+  "fields": {
+    "18_24_ans": 35.0,
+    "25_34_ans": 88.0,
+    "55_64_ans": 169.0,
+    "45_54_ans": 183.0,
+    "35_44_ans": 196.0,
+    "date": "2016-06-10"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "b58fd595db7d6e6cc7b87b3241d5aa6cd1ce3c1b",
+  "fields": {
+    "18_24_ans": 35.0,
+    "25_34_ans": 70.0,
+    "55_64_ans": 53.0,
+    "45_54_ans": 70.0,
+    "35_44_ans": 53.0,
+    "date": "2016-06-11",
+    "65_ans_et": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "8a21d39c45639024342baf569df57686eff3324e",
+  "fields": {
+    "18_24_ans": 35.0,
+    "25_34_ans": 106.0,
+    "55_64_ans": 70.0,
+    "45_54_ans": 101.0,
+    "35_44_ans": 46.0,
+    "date": "2016-06-18"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "ffac120f61dbc9b08997df027c48aae70870b73d",
+  "fields": {
+    "18_24_ans": 1088.0,
+    "25_34_ans": 10352.0,
+    "55_64_ans": 8587.0,
+    "45_54_ans": 12574.0,
+    "35_44_ans": 10085.0,
+    "date": "2016-06-19",
+    "65_ans_et": 4455.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "24814a17e6c193825e3c09971e244d1447214771",
+  "fields": {
+    "18_24_ans": 0.0,
+    "25_34_ans": 0.0,
+    "55_64_ans": 70.0,
+    "45_54_ans": 106.0,
+    "35_44_ans": 70.0,
+    "date": "2016-06-25"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "3682d5393ffb38d9e6965b793b4cd777afc51c4e",
+  "fields": {
+    "date": "2016-06-28",
+    "25_34_ans": 35.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "5ee663d6688e9b60db1cf99d85944188f13b4fc8",
+  "fields": {
+    "18_24_ans": 0.0,
+    "25_34_ans": 35.0,
+    "55_64_ans": 70.0,
+    "45_54_ans": 106.0,
+    "date": "2016-06-13",
+    "65_ans_et": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "2ebfe63213b218ef8d35e24e1816582cdcd83f09",
+  "fields": {
+    "18_24_ans": 0.0,
+    "date": "2016-06-17",
+    "25_34_ans": 106.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "b64f4d6367091186842ee8021d1e415c408806bd",
+  "fields": {
+    "date": "2016-06-24",
+    "55_64_ans": 0.0,
+    "25_34_ans": 35.0,
+    "45_54_ans": 0.0,
+    "65_ans_et": 70.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "e3c219487c8106c072b4db2e3b1b4e7fff502228",
+  "fields": {
+    "18_24_ans": 0.0,
+    "25_34_ans": 0.0,
+    "55_64_ans": 0.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 0.0,
+    "date": "2016-06-27",
+    "65_ans_et": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "ec3721df5991324f2c3aab9cc1a7205d54a035a2",
+  "fields": {
+    "18_24_ans": 0.0,
+    "date": "2016-06-29",
+    "25_34_ans": 0.0,
+    "55_64_ans": 0.0,
+    "35_44_ans": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "983cb4e97f96b4a7c2052efb772673f92e4c335f",
+  "fields": {
+    "18_24_ans": 64.0,
+    "25_34_ans": 70.0,
+    "55_64_ans": 0.0,
+    "45_54_ans": 70.0,
+    "35_44_ans": 0.0,
+    "date": "2016-06-30"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "1fa09509b7aa8fadf73564c5510676b8416b29ed",
+  "fields": {
+    "18_24_ans": 0.0,
+    "date": "2016-07-02",
+    "25_34_ans": 53.0,
+    "45_54_ans": 33.0,
+    "55_64_ans": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "309c78f574b96e1c90908f77b6833f2a42ca48c1",
+  "fields": {
+    "18_24_ans": 0.0,
+    "date": "2016-07-03",
+    "25_34_ans": 35.0,
+    "45_54_ans": 70.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "6b2bfc76d2e592e4a95501bfb7ef0cd3436f5831",
+  "fields": {
+    "date": "2016-07-04",
+    "65_ans_et": 0.0,
+    "25_34_ans": 0.0,
+    "45_54_ans": 35.0,
+    "35_44_ans": 70.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "b237866641c93195caf471c2c8239a9dca076ca7",
+  "fields": {
+    "18_24_ans": 0.0,
+    "25_34_ans": 0.0,
+    "55_64_ans": 35.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 0.0,
+    "date": "2016-06-09"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "4af7ed5cf6457235147e921d9b9f7d1f8b610a23",
+  "fields": {
+    "18_24_ans": 0.0,
+    "25_34_ans": 106.0,
+    "55_64_ans": 70.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 88.0,
+    "date": "2016-06-21",
+    "65_ans_et": 70.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "5f2a15c48aafde68320ec8df42106489dffbc0b0",
+  "fields": {
+    "18_24_ans": 708.0,
+    "25_34_ans": 4024.0,
+    "55_64_ans": 3662.0,
+    "45_54_ans": 5109.0,
+    "35_44_ans": 4206.0,
+    "date": "2016-06-26",
+    "65_ans_et": 1473.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "a3cfc077ebdcb93d076966eb6824cda5a16775ec",
+  "fields": {
+    "date": "2016-07-05",
+    "25_34_ans": 0.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 70.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "1a1eabe04b31b55805e877df8ebbd7a65a85c736",
+  "fields": {
+    "18_24_ans": 702.0,
+    "25_34_ans": 3331.0,
+    "55_64_ans": 3412.0,
+    "45_54_ans": 3921.0,
+    "35_44_ans": 3163.0,
+    "date": "2016-06-12",
+    "65_ans_et": 1415.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "7683891f38586fc3c6ceec5af6b996842bf4b0ae",
+  "fields": {
+    "18_24_ans": 681.0,
+    "25_34_ans": 2351.0,
+    "55_64_ans": 3240.0,
+    "45_54_ans": 3747.0,
+    "35_44_ans": 2817.0,
+    "date": "2016-06-15",
+    "65_ans_et": 1449.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "6e9060dd01ba340f67c2326b2cb649c336f90c2c",
+  "fields": {
+    "18_24_ans": 0.0,
+    "date": "2016-06-16",
+    "25_34_ans": 0.0,
+    "55_64_ans": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "b743fa2ba152f942af37c1db85ecb69035040e50",
+  "fields": {
+    "18_24_ans": 70.0,
+    "25_34_ans": 0.0,
+    "55_64_ans": 0.0,
+    "45_54_ans": 70.0,
+    "35_44_ans": 70.0,
+    "date": "2016-06-20"
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "1bfba4f7a0e30c0315c59b880e0277516a079701",
+  "fields": {
+    "18_24_ans": 426.0,
+    "25_34_ans": 3620.0,
+    "55_64_ans": 3114.0,
+    "45_54_ans": 4289.0,
+    "35_44_ans": 4048.0,
+    "date": "2016-07-01",
+    "65_ans_et": 1556.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "c56a924c379cb7740ca9a56d59bcbc3cf185000b",
+  "fields": {
+    "18_24_ans": 70.0,
+    "25_34_ans": 106.0,
+    "55_64_ans": 35.0,
+    "45_54_ans": 0.0,
+    "35_44_ans": 106.0,
+    "date": "2016-06-14",
+    "65_ans_et": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "16605eee8340f4ab33df7ada0a48bcbe293d82cb",
+  "fields": {
+    "18_24_ans": 414.0,
+    "25_34_ans": 3227.0,
+    "55_64_ans": 2673.0,
+    "45_54_ans": 4689.0,
+    "35_44_ans": 3911.0,
+    "date": "2016-06-22",
+    "65_ans_et": 1683.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}, {
+  "datasetid": "frequentation-du-stade-de-leuro-2016-selon-lage-des-visiteurs@metropole-europeenne-de-lille",
+  "recordid": "eacb3a96b96afc38ed660f5dd5206570b6a1baf3",
+  "fields": {
+    "25_34_ans": 0.0,
+    "55_64_ans": 0.0,
+    "45_54_ans": 70.0,
+    "35_44_ans": 0.0,
+    "date": "2016-06-23",
+    "65_ans_et": 0.0
+  },
+  "record_timestamp": "2017-12-31T14:20:34+01:00"
+}]
