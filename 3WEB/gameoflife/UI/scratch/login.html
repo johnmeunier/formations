@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Game Of Life</h1>
+        <h2 class="header__subtitle">Login</h2>
+      </header>
+      <main class="main">
+        <form class="login">
+          <label for="email">Login</label>
+          <input
+            id="email"
+            type="email"
+            class="login__email"
+            placeholder="Email"
+          />
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="text"
+            class="login__password"
+            placeholder="Password"
+          />
+          <h3>
+            Password strength
+          </h3>
+          <progress class="password-strength__progress" max="5" value="0">
+          </progress>
+          <div class="password-strength__bar-container">
+            <div class="password-strength__bar">
+              <span class="password-strength__value"></span>
+            </div>
+          </div>
+          <h3 class="login__error login__error--hide">
+            Les identifiants que vous avez saisis sont incorrects.
+          </h3>
+          <button class="login__button">Submit</button>
+        </form>
+      </main>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

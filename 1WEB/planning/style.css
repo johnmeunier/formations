@@ -1,0 +1,52 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #031927;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  color: #ba1200;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+h2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+}
+thead {
+}
+tbody {
+}
+tr {
+}
+th {
+  background-color: #508aa8;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+td {
+  background-color: #c8e0f4;
+  padding: 10px 20px;
+}
+
+.info {
+  font-style: italic;
+}
+
+.selected {
+  background-color: #fff;
+  font-weight: bolder;
+}

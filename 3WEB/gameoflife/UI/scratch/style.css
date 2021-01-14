@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  background-color: #555;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.login__error {
+  color: red;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.login__error--active {
+  visibility: visible;
+}
+
+.password-strength__bar-container {
+  width: 500px;
+  height: 70px;
+  background-color: #ddd;
+}
+.password-strength__bar {
+  width: 0%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 7px;
+  box-sizing: border-box;
+  font-size: 3em;
+  transition-property: width, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.grid__line {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid__cell {
+  width: 10px;
+  cursor: pointer;
+}

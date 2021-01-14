@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <img src="http://placeimg.com/125/50/tech" alt="">
+      <h1>Le coin des dalleux</h1>
+      <div class="menu">
+        <div class="cart">
+          <img class="cart__logo" src="assets/cart.svg" alt="">
+          <span class="cart__count">0</span>
+          <p>Total : <span class="cart__total">0</span>€ TTC</p>
+          <ul class="cart__detail"></ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <form action="#" method="GET" class="filter">
+        Filtrer par :
+        <label>
+          <input type="radio" name="category" value="burger" /> Burger
+        </label>
+        <label>
+          <input type="radio" name="category" value="pizza" /> Pizza
+        </label>
+      </form>
+      <h2 class="products__title"><span class="products__number">x</span> produits disponibles</h2>
+      <div class="products__list">
+      </div>
+    </div>
+    <script src="app.js"></script>
+
+  </body>
+
+</html>

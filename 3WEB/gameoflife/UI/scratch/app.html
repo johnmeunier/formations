@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Game Of Life</h1>
+        <h2 class="header__subtitle">App</h2>
+      </header>
+      <main class="main">
+        <input id="gridSize" type="number" value="10" placeholder="Grid size" />
+        <button id="generate" class="waves-effect waves-light btn">
+          Generate
+        </button>
+        <button id="next" class="waves-effect waves-light btn">></button>
+        <input id="numberOfSteps" type="number" placeholder="Number of steps" />
+        <button id="live" class="waves-effect waves-light btn">Live</button>
+        <input type="text" class="emoji-alive" placeholder="Alive" value="🦊" />
+        <input type="text" class="emoji-dead" placeholder="Dead" value="💀" />
+        <div class="grid"></div>
+      </main>
+    </div>
+    <script src="../../javascript/index.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

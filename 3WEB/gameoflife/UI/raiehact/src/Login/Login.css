@@ -1,0 +1,22 @@
+.login__error {
+  color: red;
+  font-weight: bold;
+}
+
+.password-strength__bar-container {
+  width: 500px;
+  height: 70px;
+  background-color: #ddd;
+}
+.password-strength__bar {
+  width: 0%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 7px;
+  box-sizing: border-box;
+  font-size: 3em;
+  transition-property: width, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
