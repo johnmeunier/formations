@@ -65,8 +65,8 @@ export const List = () => {
         </div>
       </header>
       <div className="people">
-        {peopleFiltered.map(({ name, email, phone, greeting, gender }) => (
-          <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} />
+        {peopleFiltered.map(({ name, email, phone, greeting, gender, guid }) => (
+          <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} guid={guid} />
         ))}
       </div>
     </div>

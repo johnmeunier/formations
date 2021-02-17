@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 import "./Person.css";
 import mailIcon from "./mail-icon.png";
 
-export const Person = ({ name, email, phone, greeting, gender }) => (
+export const Person = ({ name, email, phone, greeting, gender, guid }) => (
   <div className="person">
     <h3 className="person__name">
       {gender === "male" ? <span>&#9794;</span> : <span>&#9792;</span>}
@@ -17,5 +19,6 @@ export const Person = ({ name, email, phone, greeting, gender }) => (
       </h4>
     </div>
     <p>{greeting}</p>
+    <Link to={`/details/${guid}`}>Voir le détails de {name}</Link>
   </div>
 );

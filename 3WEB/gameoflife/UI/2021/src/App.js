@@ -16,13 +16,15 @@ const App = () => {
           </nav>
         </header>
         <Switch>
-          <Route path="/details">
+          <Route path="/details/:id" exact>
             <Details />
           </Route>
           <Route path="/" exact>
             <List />
           </Route>
-          <Route>404</Route>
+          <Route>
+            <div className="notFound">凸( ͡° ͜ʖ ͡°)凸</div>
+          </Route>
         </Switch>
       </div>
     </Router>
