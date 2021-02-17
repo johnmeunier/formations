@@ -1,0 +1,18 @@
+.person {
+  background-color: #fff;
+  border: 5px solid #942911;
+  color: #942911;
+  width: 25%;
+  margin: 15px 0px 15px 0px;
+  padding: 15px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact__icon {
+  width: 20px;
+  margin-right: 5px;
+}
