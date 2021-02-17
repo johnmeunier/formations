@@ -1,31 +1,27 @@
 if (sessionStorage.getItem("logged") == "true") {
   let grid = null;
-  const renderGrid = grid => {
-    let $grid = document.querySelector(".grid");
-    $grid.innerHTML = "";
-    grid.forEach((line, i) => {
-      let $line = document.createElement("div");
+  const renderGrid = (grid) => {
+    document.querySelector("#grid").innerHTML = "";
+    grid.forEach((line, iLine) => {
+      const $line = document.createElement("div");
       $line.classList.add("grid__line");
-      line.forEach((cell, j) => {
-        let $cell = document.createElement("span");
+      line.forEach((cell, iCell) => {
+        const $cell = document.createElement("span");
         $cell.classList.add("grid__cell");
+        $cell.innerText = cell ? document.querySelector(".emoji-alive").value : document.querySelector(".emoji-dead").value;
         $cell.addEventListener("click", () => {
-          grid[i][j] = !grid[i][j];
+          grid[iLine][iCell] = !grid[iLine][iCell];
           renderGrid(grid);
         });
-        $cell.innerHTML = cell
-          ? document.querySelector(".emoji-alive").value
-          : document.querySelector(".emoji-dead").value;
-        $cell.classList.add(`grid__cell--${cell ? "alive" : "dead"}`);
         $line.appendChild($cell);
       });
-      $grid.appendChild($line);
+      document.querySelector("#grid").appendChild($line);
     });
   };
 
   document.querySelector("#generate").addEventListener("click", () => {
     const size = document.querySelector("#gridSize").value;
-    grid = generateInitialGridFalse(size);
+    grid = generateInitialGrid(size);
     renderGrid(grid);
   });
 
@@ -46,7 +42,7 @@ if (sessionStorage.getItem("logged") == "true") {
       if (numberOfSteps === 0) {
         clearInterval(myInt);
       }
-    }, 40);
+    }, 80);
   });
 } else {
   document.location.href = document.location.href.replace("app", "login");

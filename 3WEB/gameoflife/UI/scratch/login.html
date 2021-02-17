@@ -1,35 +1,39 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Login</title>
+    <title>Créer un compte</title>
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
   </head>
 
   <body>
-    <div class="container">
+    <div class="nes-container with-title is-centered">
+      <p class="title">Jeux de la vie</p>
       <header class="header">
-        <h1 class="header__title">Game Of Life</h1>
-        <h2 class="header__subtitle">Login</h2>
+        <h1 class="header__subtitle">Créer mon compte</h1>
       </header>
       <main class="main">
         <form class="login">
-          <label for="email">Login</label>
-          <input
-            id="email"
-            type="email"
-            class="login__email"
-            placeholder="Email"
-          />
-          <label for="password">Password</label>
-          <input
-            id="password"
-            type="text"
-            class="login__password"
-            placeholder="Password"
-          />
+          <div class="nes-field">
+            <label for="email">Login</label>
+            <input id="email" type="email" class="login__email nes-input" placeholder="Email" />
+          </div>
+          <div class="nes-field">
+            <label for="password">Password</label>
+            <input id="password" type="text" class="login__password nes-input" placeholder="Password" />
+
+          </div>
+          <div class="nes-field">
+            <label for="password">Password verif</label>
+            <input id="passwordVerif" type="text" class="login__password--verif nes-input"
+              placeholder="Password verif" />
+          </div>
+
           <h3>
             Password strength
           </h3>
@@ -40,13 +44,29 @@
               <span class="password-strength__value"></span>
             </div>
           </div>
-          <h3 class="login__error login__error--hide">
-            Les identifiants que vous avez saisis sont incorrects.
+          <h3 class="nes-balloon from-left login__error login__error--notCorresponding hide">
+            Les mots de passes ne correspondent pas
           </h3>
-          <button class="login__button">Submit</button>
+          <h3 class="nes-balloon from-left login__error login__error--hasMaj hide">
+            Le mot de passe doit contenir une majuscule
+          </h3>
+          <h3 class="nes-balloon from-left login__error login__error--hasMin hide">
+            Le mot de passe doit contenir une minuscule
+          </h3>
+          <h3 class="nes-balloon from-left login__error login__error--hasNumber hide">
+            Le mot de passe doit contenir un chiffre
+          </h3>
+          <h3 class="nes-balloon from-left login__error login__error--hasSpecial hide">
+            Le mot de passe doit contenir un char spécial
+          </h3>
+          <h3 class="nes-balloon from-left login__error login__error--isMoreThan8 hide">
+            Le mot de passe doit contenir au moins 8 char
+          </h3>
+          <button class="login__button hide nes-btn is-primary">Créer mon compte</button>
         </form>
       </main>
     </div>
     <script src="./login.js"></script>
   </body>
+
 </html>

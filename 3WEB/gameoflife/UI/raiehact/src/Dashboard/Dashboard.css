@@ -15,14 +15,6 @@
   /* border: 1px solid transparent; */
 }
 
-.grid__cell--alive {
-  background-color: #e54b4b;
-}
-
-.grid__cell--dead {
-  background-color: #ffa987;
-}
-
 .dashboard {
   color: #444140;
 }

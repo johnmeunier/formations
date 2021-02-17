@@ -10,10 +10,10 @@ const renderALine = (arr) =>
 
 const render = (arr) => arr.map(renderALine).join("\n");
 
-const isOutOfBound = ({ length }, { x, y }) => x < 0 || y < 0 || x >= length || y >= length;
-
 const getNextState = (isAlive, numberOfAliveNeighbours) =>
   isAlive ? numberOfAliveNeighbours === 2 || numberOfAliveNeighbours === 3 : numberOfAliveNeighbours === 3;
+
+const isOutOfBound = ({ length }, { x, y }) => x < 0 || y < 0 || x >= length || y >= length;
 
 const countAliveNeighbour = (grid, { x, y }) =>
   [
@@ -42,23 +42,23 @@ const step = (grid) => {
 //   generateInitialGrid,
 //   countAliveNeighbour,
 //   getNextState,
-//   step
+//   step,
 // };
 
-// let grid = generateInitialGrid(40);
-// let clignotant = generateInitialGridFalse(5);
-// clignotant[2][1] = true;
-// clignotant[2][2] = true;
-// clignotant[2][3] = true;
-// let planeur = generateInitialGridFalse(25);
-// planeur[1][3] = true;
-// planeur[2][3] = true;
-// planeur[2][1] = true;
-// planeur[3][3] = true;
-// planeur[3][2] = true;
+//let grid = generateInitialGrid(40);
+// // let clignotant = generateInitialGridFalse(5);
+// // clignotant[2][1] = true;
+// // clignotant[2][2] = true;
+// // clignotant[2][3] = true;
+// // let planeur = generateInitialGridFalse(25);
+// // planeur[1][3] = true;
+// // planeur[2][3] = true;
+// // planeur[2][1] = true;
+// // planeur[3][3] = true;
+// // planeur[3][2] = true;
 // const nbOfRenders = 100000;
 // (function myLoop(i, grid) {
-//   setTimeout(function() {
+//   setTimeout(function () {
 //     console.clear();
 //     console.log(`Step : ${nbOfRenders - i}`);
 //     console.log(grid.map(renderALine).join("\n"));
@@ -66,4 +66,4 @@ const step = (grid) => {
 //     grid = step(grid);
 //     if (--i) myLoop(i, grid); //  decrement i and call myLoop again if i > 0
 //   }, 40);
-// })(nbOfRenders, grid);
+// })(nbOfRenders, planeur);
