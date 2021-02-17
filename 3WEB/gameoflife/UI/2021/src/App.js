@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { List } from "./pages/List/List";
 import { Details } from "./pages/Details/Details";
@@ -11,6 +11,9 @@ const App = () => {
       <div className="App">
         <header>
           <h1>Personas</h1>
+          <nav>
+            <Link to="/">Home</Link>
+          </nav>
         </header>
         <Switch>
           <Route path="/details">
