@@ -2,6 +2,14 @@ body {
   background-color: #593837;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 .people {
   display: flex;
   flex-wrap: wrap;
@@ -11,15 +19,27 @@ body {
 
 header {
   width: 100%;
-  padding: 50px;
+  padding: 30px 50px;
   background-color: #94b9af;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.filter__input {
-  font-size: 2rem;
+.numberResult {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.filters h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.filter {
+  margin-bottom: 5px;
 }
 
 .filter__input input {
-  height: 30px;
-  min-width: 30px;
 }

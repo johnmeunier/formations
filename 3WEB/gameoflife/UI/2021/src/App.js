@@ -27,10 +27,10 @@ const App = () => {
     <div className="App">
       <header>
         <h1>Personas</h1>
+        <h2 className="numberResult">x people</h2>
         <div className="filters">
           <h2>Filter by :</h2>
           <div className="filter">
-            <h3>Gender</h3>
             {["female", "male"].map((gender) => (
               <label htmlFor={gender} className="filter__input">
                 <input type="checkbox" name="gender" value={gender} id={gender} checked={displayGender.includes(gender)} onChange={handleCheckGender} />
@@ -39,7 +39,6 @@ const App = () => {
             ))}
           </div>
           <div className="filter">
-            <h3>Phone number</h3>
             <label htmlFor="filter-phone" className="filter__input">
               Phone number
               <input type="tel" name="filter-phone" id="filter-phone" value={filterPhone} onChange={handleFilterPhone} />

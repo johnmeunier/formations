@@ -1,10 +1,19 @@
 .person {
   background-color: #fff;
-  border: 5px solid #942911;
-  color: #942911;
-  width: 25%;
+  border: 3px solid #942911;
+  width: 30%;
   margin: 15px 0px 15px 0px;
   padding: 15px;
+}
+
+.person__name {
+  color: #942911;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.contacts {
+  margin: 10px 0px;
 }
 
 .contact {
