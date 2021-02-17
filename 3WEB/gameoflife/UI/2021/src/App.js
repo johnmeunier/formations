@@ -6,6 +6,7 @@ import { Person } from "./components/Person/Person";
 const App = () => {
   const [displayGender, setDisplayGender] = useState(["female", "male"]);
   const [filterPhone, setFilterPhone] = useState();
+  const [filterName, setFilterName] = useState();
 
   const handleCheckGender = ({ target: { value } }) => {
     setDisplayGender((prev) => {
@@ -23,6 +24,10 @@ const App = () => {
     setFilterPhone(value);
   };
 
+  const handleFilterName = ({ target: { value } }) => {
+    setFilterName(value);
+  };
+
   return (
     <div className="App">
       <header>
@@ -34,7 +39,7 @@ const App = () => {
             {["female", "male"].map((gender) => (
               <label htmlFor={gender} className="filter__input">
                 <input type="checkbox" name="gender" value={gender} id={gender} checked={displayGender.includes(gender)} onChange={handleCheckGender} />
-                Femme
+                {gender}
               </label>
             ))}
           </div>
@@ -44,12 +49,19 @@ const App = () => {
               <input type="tel" name="filter-phone" id="filter-phone" value={filterPhone} onChange={handleFilterPhone} />
             </label>
           </div>
+          <div className="filter">
+            <label htmlFor="filter-name" className="filter__input">
+              Name
+              <input type="tel" name="filter-name" id="filter-name" value={filterName} onChange={handleFilterName} />
+            </label>
+          </div>
         </div>
       </header>
       <div className="people">
         {people
           .filter(({ gender }) => displayGender.includes(gender))
           .filter(({ phone }) => (filterPhone ? phone.includes(filterPhone) : true))
+          .filter(({ name }) => (filterName ? name.toUpperCase().includes(filterName.toUpperCase()) : true))
           .map(({ name, email, phone, greeting, gender }) => (
             <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} />
           ))}
