@@ -26,18 +26,13 @@ header {
   justify-content: space-between;
 }
 
-.numberResult {
-  font-size: 3rem;
-  font-weight: 900;
-}
-
 .filters h2 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.filters__container {
+.header--sub {
   width: 100%;
   padding: 30px 50px;
   display: flex;
@@ -46,9 +41,16 @@ header {
   background-color: #9d8420;
 }
 
-.filter {
-  margin-bottom: 5px;
+.header--sub h2 {
+  font-size: 3rem;
+  font-weight: 900;
 }
 
-.filter__input input {
+.header--sub h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.filter {
+  margin-bottom: 5px;
 }

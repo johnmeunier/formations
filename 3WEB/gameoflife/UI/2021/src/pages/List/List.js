@@ -38,10 +38,10 @@ export const List = () => {
   };
   return (
     <div className="list">
-      <div className="filters__container">
+      <header className="header--sub">
         <h2 className="numberResult">{peopleFiltered.length} people</h2>
         <div className="filters">
-          <h2>Filter by :</h2>
+          <h3>Filter by :</h3>
           <div className="filter">
             {["female", "male"].map((gender) => (
               <label htmlFor={gender} className="filter__input">
@@ -63,7 +63,7 @@ export const List = () => {
             </label>
           </div>
         </div>
-      </div>
+      </header>
       <div className="people">
         {peopleFiltered.map(({ name, email, phone, greeting, gender }) => (
           <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} />

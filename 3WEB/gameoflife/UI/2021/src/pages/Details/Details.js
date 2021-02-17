@@ -1,1 +1,7 @@
-export const Details = ({ person }) => <h1>DETAILS DE LA PERSONNE</h1>;
+export const Details = ({ person }) => (
+  <div className="details">
+    <div className="header--sub">
+      <h2>Détails de la personne</h2>
+    </div>
+  </div>
+);
