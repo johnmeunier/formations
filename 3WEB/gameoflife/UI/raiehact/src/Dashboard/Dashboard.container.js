@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Dashboard from "./Dashboard";
 
-import {
-  generateInitialGrid,
-  step,
-  generateInitialGridFalse
-} from "../services/algo";
+import { generateInitialGrid, step, generateInitialGridFalse } from "../services/algo";
 
-const EnhanceDashboard = props => {
+const EnhanceDashboard = (props) => {
   const [gridSize, setGridSize] = useState(40);
   const [grid, setGrid] = useState(generateInitialGrid(gridSize));
   const [numberOfSteps, setNumberOfSteps] = useState(10);
@@ -26,7 +22,7 @@ const EnhanceDashboard = props => {
     return () => clearInterval(interval);
   });
 
-  const generatePattern = patternName => {
+  const generatePattern = (patternName) => {
     switch (patternName) {
       case "empty":
         setGrid(generateInitialGridFalse(gridSize));
