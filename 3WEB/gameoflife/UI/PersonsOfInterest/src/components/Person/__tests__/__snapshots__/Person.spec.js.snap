@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should render correctly 1`] = `
+<div
+  class="card"
+>
+  <h3
+    class="card__name"
+  >
+    <span>
+      ♀
+    </span>
+    testName
+  </h3>
+  <div
+    class="contacts"
+  >
+    <h4
+      class="contact"
+    >
+      <img
+        class="contact__icon"
+        src="mail-icon.png"
+      />
+      <a
+        href="mailto:testMail@toto.com"
+      >
+        testMail@toto.com
+      </a>
+    </h4>
+    <h4
+      class="contact"
+    >
+      <a
+        href="tel:+33333"
+      >
+        +33333
+      </a>
+    </h4>
+  </div>
+  <p>
+    Hello
+  </p>
+  <a
+    href="/details/12KLMSDJKLMQSD"
+  >
+    Voir le détails de 
+    testName
+  </a>
+</div>
+`;
+
+exports[`snapshot should render correctly with a bad email 1`] = `
+<div
+  class="card"
+>
+  <h3
+    class="card__name"
+  >
+    <span>
+      ♀
+    </span>
+    testName
+  </h3>
+  <div
+    class="contacts"
+  >
+    <h4
+      class="contact"
+    >
+      <img
+        class="contact__icon"
+        src="mail-icon.png"
+      />
+      <a
+        href="mailto:sdmlfmsdf"
+      >
+        sdmlfmsdf
+      </a>
+    </h4>
+    <h4
+      class="contact"
+    >
+      <a
+        href="tel:+33333"
+      >
+        +33333
+      </a>
+    </h4>
+  </div>
+  <p>
+    Hello
+  </p>
+  <a
+    href="/details/12KLMSDJKLMQSD"
+  >
+    Voir le détails de 
+    testName
+  </a>
+</div>
+`;

@@ -43,7 +43,9 @@ export const List = () => {
   return (
     <div className="list">
       <header className="header--sub">
-        <h2 className="numberResult">{peopleFiltered.length} people</h2>
+        <h2 className="numberResult" role="heading">
+          {peopleFiltered.length} people
+        </h2>
         <div className="filters">
           <h3>Filter by :</h3>
           <div className="filter">
