@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { List } from "./pages/List/List";
 import { Details } from "./pages/Details/Details";
-
+import { Fail } from "./components/Fail/Fail";
 import "./App.css";
 
 const App = () => {
@@ -23,7 +23,9 @@ const App = () => {
             <List />
           </Route>
           <Route>
-            <div className="notFound">凸( ͡° ͜ʖ ͡°)凸</div>
+            <div className="notFound">
+              <Fail />
+            </div>
           </Route>
         </Switch>
       </div>

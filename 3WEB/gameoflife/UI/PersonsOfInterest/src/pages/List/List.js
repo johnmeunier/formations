@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { people } from "../../data.json";
 import { Person } from "../../components/Person/Person";
-
+import { Fail } from "../../components/Fail/Fail";
 export const List = () => {
   const [displayGender, setDisplayGender] = useState(["female", "male"]);
   const [filterPhone, setFilterPhone] = useState();
@@ -65,9 +65,13 @@ export const List = () => {
         </div>
       </header>
       <div className="people">
-        {peopleFiltered.map(({ name, email, phone, greeting, gender, guid }) => (
-          <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} guid={guid} />
-        ))}
+        {peopleFiltered.length > 0 ? (
+          peopleFiltered.map(({ name, email, phone, greeting, gender, guid }) => (
+            <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} guid={guid} />
+          ))
+        ) : (
+          <Fail />
+        )}
       </div>
     </div>
   );
