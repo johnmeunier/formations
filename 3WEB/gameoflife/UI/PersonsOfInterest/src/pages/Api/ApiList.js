@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-export const Api = () => {
+export const ApiList = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -19,9 +20,11 @@ export const Api = () => {
         <h2>Api</h2>
       </div>
       <div className="cards">
-        {posts.map(({ title, body }) => (
+        {posts.map(({ id, title, body }) => (
           <div className="card">
-            <h3 className="card__name">{title}</h3>
+            <h3 className="card__name">
+              <Link to={`/api/${id}`}>{title}</Link>
+            </h3>
             <p className="card__content">{body}</p>
           </div>
         ))}

@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { List } from "./pages/List/List";
 import { Details } from "./pages/Details/Details";
-import { Api } from "./pages/Api/Api";
+import { ApiList } from "./pages/Api/ApiList";
+import { ApiPost } from "./pages/Api/ApiPost";
 import { Fail } from "./components/Fail/Fail";
 import "./App.css";
 
@@ -21,7 +22,10 @@ const App = () => {
             <Details />
           </Route>
           <Route path="/api" exact>
-            <Api />
+            <ApiList />
+          </Route>
+          <Route path="/api/:postId" exact>
+            <ApiPost />
           </Route>
           <Route path="/" exact>
             <List />
