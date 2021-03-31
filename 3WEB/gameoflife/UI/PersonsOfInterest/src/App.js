@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { List } from "./pages/List/List";
 import { Details } from "./pages/Details/Details";
+import { ApiUseApi } from "./pages/Api/ApiUseApi";
 import { ApiList } from "./pages/Api/ApiList";
 import { ApiPost } from "./pages/Api/ApiPost";
 import { Fail } from "./components/Fail/Fail";
@@ -20,6 +21,9 @@ const App = () => {
         <Switch>
           <Route path="/details/:id" exact>
             <Details />
+          </Route>
+          <Route path="/apiUseApi" exact>
+            <ApiUseApi />
           </Route>
           <Route path="/api" exact>
             <ApiList />
