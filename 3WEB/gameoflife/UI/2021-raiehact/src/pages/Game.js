@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useDebounce } from "use-debounce";
 
 import { generateInitialGrid, step } from "services/algo";
 
@@ -9,11 +10,12 @@ export const Game = () => {
   const [probabilityDead, setProbabilityDead] = useState(80);
   const [grid, setGrid] = useState(generateInitialGrid(40, probabilityDead));
   const [chars, setChars] = useState({ alive: "🍎", dead: "💀" });
+  const [probabilityDeadDebounced] = useDebounce(probabilityDead, 3000);
 
   useEffect(() => {
     console.log("hello");
-    setGrid((prevGrid) => generateInitialGrid(prevGrid.length, probabilityDead));
-  }, [probabilityDead]);
+    setGrid((prevGrid) => generateInitialGrid(prevGrid.length, probabilityDeadDebounced));
+  }, [probabilityDeadDebounced]);
 
   const nextStateGridHandler = () => setGrid((prevGrid) => step(prevGrid));
 

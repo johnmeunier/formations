@@ -10,7 +10,7 @@ h1 {
   font-size: 3rem;
 }
 
-.people {
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

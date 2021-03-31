@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react";
+import { useDebounce } from "use-debounce";
+
 import { people } from "../../data.json";
 import { Person } from "../../components/Person/Person";
 import { Fail } from "../../components/Fail/Fail";
+
 export const List = () => {
   const [displayGender, setDisplayGender] = useState(["female", "male"]);
   const [filterPhone, setFilterPhone] = useState();
   const [filterName, setFilterName] = useState();
+  const [filterNameDebounced] = useDebounce(filterName, 300);
   const [peopleFiltered, setPeopleFiltered] = useState(people);
 
   useEffect(() => {
@@ -13,9 +17,9 @@ export const List = () => {
       people
         .filter(({ gender }) => displayGender.includes(gender))
         .filter(({ phone }) => (filterPhone ? phone.includes(filterPhone) : true))
-        .filter(({ name }) => (filterName ? name.toUpperCase().includes(filterName.toUpperCase()) : true))
+        .filter(({ name }) => (filterNameDebounced ? name.toUpperCase().includes(filterNameDebounced.toUpperCase()) : true))
     );
-  }, [displayGender, filterPhone, filterName]);
+  }, [displayGender, filterPhone, filterNameDebounced]);
 
   const handleCheckGender = ({ target: { value } }) => {
     setDisplayGender((prev) => {
@@ -64,7 +68,7 @@ export const List = () => {
           </div>
         </div>
       </header>
-      <div className="people">
+      <div className="cards">
         {peopleFiltered.length > 0 ? (
           peopleFiltered.map(({ name, email, phone, greeting, gender, guid }) => (
             <Person name={name} email={email} phone={phone} greeting={greeting} gender={gender} guid={guid} />
