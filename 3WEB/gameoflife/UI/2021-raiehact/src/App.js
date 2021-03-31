@@ -12,6 +12,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/game" exact component={Game} />
+        <Route render={() => <h1>404</h1>} />
       </Switch>
     </Router>
   );

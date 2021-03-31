@@ -1,4 +1,5 @@
-export const generateInitialGrid = (size) => Array.from({ length: size }, () => Array.from({ length: size }, () => Math.floor(Math.random() * 10 + 1) >= 8));
+export const generateInitialGrid = (size, probabilityDead) =>
+  Array.from({ length: size }, () => Array.from({ length: size }, () => Math.floor(Math.random() * 10 + 1) >= probabilityDead / 10));
 
 const generateInitialGridFalse = (size) => Array.from({ length: size }, () => Array.from({ length: size }, () => false));
 
