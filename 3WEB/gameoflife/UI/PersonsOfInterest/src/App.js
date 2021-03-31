@@ -15,7 +15,17 @@ const App = () => {
         <header>
           <h1>Personas</h1>
           <nav>
-            <Link to="/">Home</Link>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/api">Api List (fetch)</Link>
+              </li>
+              <li>
+                <Link to="/apiUseApi">SW API (useApi)</Link>
+              </li>
+            </ul>
           </nav>
         </header>
         <Switch>
